@@ -48,7 +48,14 @@ class Square extends PositionComponent {
 
 class MyGame extends BaseGame {
   MyGame() {
-    //add();
+    add(GoldDigger(
+      life: 1,
+      speed: 1,
+      ageLimit: 1,
+      exhausted: 1,
+      evolutionLvl: 1,
+      load: null
+    ));
   }
 
   @override
